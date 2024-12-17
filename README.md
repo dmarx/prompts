@@ -53,3 +53,15 @@ Keep in mind these guidelines for effective collaboration with Large Language Mo
    - Write tests alongside new features
    - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
+
+short version:
+
+```markdown
+**Best Practices**
+   - Aim for files under 200 lines
+   - Each file should have a single, clear purpose
+   - Use directory structure to organize related components
+   - Prefer many small files over few large files
+   - Consider splitting when files require partial updates
+   - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
+```
