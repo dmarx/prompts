@@ -57,29 +57,31 @@ When developing this project (or using it as a template), keep in mind these gui
    - Github Actions is the only available runtime for script execution
    - All workflows that execute scripts should depend on the test workflow passing
    - All workflows should have a `workflow_dispatch` event trigger
+   - All workflows should include their own respective file path as a trigger path (i.e. workflows should fire after they are changed)
    - Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
 ```
 
 short version:
 
 ```markdown
-**Conventions and Best Practices**
-   - Aim for files under 200 lines
-   - Each file should have a single, clear purpose
-   - Use directory structure to organize related components
-   - Prefer many small files over few large files
-   - Consider splitting when files require partial updates
-   - Use `loguru` for all logging
-   - Use `fire` for CLI interfaces
-   - use `omegaconf` for yaml
-   - Use `pytest` (no Codecov account) for unit tests
-   - Prefer `pathlib` for file system operations
-   - Type hints should use:
-     - Built-in generics over typing module (PEP 585)
-     - Union operator (`|`) over Optional (PEP 604)
-   - Github Actions is the only available runtime for script execution
-   - All workflows that execute scripts should depend on the test workflow passing
-   - All workflows should have a workflow_dispatch event trigger
-   - Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
-   - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
+## Conventions and Best Practices
+- Aim for files under 200 lines
+- Each file should have a single, clear purpose
+- Use directory structure to organize related components
+- Prefer many small files over few large files
+- Consider splitting when files require partial updates
+- Use `loguru` for all logging
+- Use `fire` for CLI interfaces
+- use `omegaconf` for yaml
+- Use `pytest` (no Codecov account) for unit tests
+- Prefer `pathlib` for file system operations
+- Type hints should use:
+  - Built-in generics over typing module (PEP 585)
+  - Union operator (`|`) over Optional (PEP 604)
+- Github Actions is the only available runtime for script execution
+- All workflows that execute scripts should depend on the test workflow passing
+- All workflows should have a workflow_dispatch event trigger
+- All workflows should include their own respective file path as a trigger path (i.e. workflows should fire after they are changed)
+- Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
+- Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
