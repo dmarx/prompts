@@ -52,7 +52,8 @@ When developing this project (or using it as a template), keep in mind these gui
      - Built-in generics over typing module (PEP 585)
      - Union operator (`|`) over Optional (PEP 604)
    - Github Actions is the only available runtime for script execution
-   - All workflows depend on tests passing
+   - All workflows that execute scripts should depend on the test workflow passing
+   - All workflows should have a workflow_dispatch event trigger
    - Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
    - Syntax permitting, all files should begin with a comment detailing the current file's name and relative path within the project
 ```
@@ -75,7 +76,8 @@ short version:
      - Built-in generics over typing module (PEP 585)
      - Union operator (`|`) over Optional (PEP 604)
    - Github Actions is the only available runtime for script execution
-   - All workflows depend on tests passing
+   - All workflows that execute scripts should depend on the test workflow passing
+   - All workflows should have a workflow_dispatch event trigger
    - Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
    - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
