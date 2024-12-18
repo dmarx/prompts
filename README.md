@@ -10,31 +10,23 @@ Just a place to track and improve on versions of multi-purpose prompts I find my
 
 ### Code Organization for LLM Interaction
 
-Keep in mind these guidelines for effective collaboration with Large Language Models:
+When developing this project (or using it as a template), keep in mind these guidelines for effective collaboration with Large Language Models:
 
-1. **Separation of Concerns**
-   - Each package should have a single, clear responsibility
-   - Minimize coupling and maximize cohesion.
+1. **File Length and Modularity**
    - Keep files short and focused on a single responsibility
    - If you find yourself using comments like "... rest remains the same" or "... etc", the file is too long
    - Files should be completely replaceable in a single LLM interaction
    - Long files should be split into logical components
+   - Aim for low coupling and high cohesion
 
-3. **Dependencies**
+2. **Dependencies**
    - All dependencies managed in `pyproject.toml`
-   - Optional dependencies grouped by feature:
-     ```
-     [project.optional-dependencies]
-     test = ["pytest", ...]
-     site = ["markdown2", ...]
-     all = ["pytest", "markdown2", ...]  # Everything
-     ```
 
-4. **Testing Standards**
+3. **Testing Standards**
    - Use pytest
    - CI/CD workflows should generally depend on tests passing
 
-5. **Why This Matters**
+4. **Why This Matters**
    - LLMs work best with clear, focused contexts
    - Complete file contents are better than partial updates with ellipsis
    - Tests provide clear examples of intended behavior
@@ -44,24 +36,44 @@ Keep in mind these guidelines for effective collaboration with Large Language Mo
      - Maintain consistency
      - Avoid potential errors from incomplete information
 
-7. **Best Practices**
+5. **Best Practices**
    - Aim for files under 200 lines
    - Each file should have a single, clear purpose
    - Use directory structure to organize related components
    - Prefer many small files over few large files
    - Consider splitting when files require partial updates
-   - Write tests alongside new features
-   - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
+
+6. **Project Conventions**
+   - Use `loguru` for all logging
+   - Use `fire` for CLI interfaces
+   - use `omegaconf` for yaml
+   - Prefer `pathlib` for file system operations
+   - Type hints should use:
+     - Built-in generics over typing module (PEP 585)
+     - Union operator (`|`) over Optional (PEP 604)
+   - Github Actions is the only available runtime for script execution
+   - All workflows depend on tests passing
+   - Syntax permitting, all files should begin with a comment detailing the current file's name and relative path within the project
 ```
 
 short version:
 
 ```markdown
-**Best Practices**
+**Conventions and Best Practices**
    - Aim for files under 200 lines
    - Each file should have a single, clear purpose
    - Use directory structure to organize related components
    - Prefer many small files over few large files
    - Consider splitting when files require partial updates
+   - Use `loguru` for all logging
+   - Use `fire` for CLI interfaces
+   - use `omegaconf` for yaml
+   - Use `pytest` (no Codecov account) for unit tests
+   - Prefer `pathlib` for file system operations
+   - Type hints should use:
+     - Built-in generics over typing module (PEP 585)
+     - Union operator (`|`) over Optional (PEP 604)
+   - Github Actions is the only available runtime for script execution
+   - All workflows depend on tests passing
    - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
