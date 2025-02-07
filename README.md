@@ -85,3 +85,9 @@ short version:
 - Persist outputs generated from workflows using the `stefanzweifel/git-auto-commit-action@v5` GHA
 - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
+
+## Architecture Mapping
+
+```
+Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs. save your tokens, just list the titles of potential ADRs. Treat this as a motivating exercise to itemize decisions and assumptions in the codebase and architecture.
+```
