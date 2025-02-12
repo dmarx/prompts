@@ -1,3 +1,4 @@
+# NB: Assumes `scripts/process_task.py` exists
 name: Process Task From Issue Trigger
 on:
   issues:
