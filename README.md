@@ -91,3 +91,11 @@ short version:
 ```
 Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs. save your tokens, just list the titles of potential ADRs. Treat this as a motivating exercise to itemize decisions and assumptions in the codebase and architecture.
 ```
+
+## TDD
+
+Instead of iteratively repairing an LLM implementation riddled with bugs, treat it as pseudocode and start from the top. new conv, share the code + :
+
+```
+i think I may have boiled the ocean a bit here and built something really cool before even checking the math. refactor this so we can build up our final objects/behaviors incrementally and test both the math and implementation of each part of the process as we go.
+```
