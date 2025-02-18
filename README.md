@@ -99,3 +99,9 @@ Instead of iteratively repairing an LLM implementation riddled with bugs, treat 
 ```
 i think I may have boiled the ocean a bit here and built something really cool before even checking the math. refactor this so we can build up our final objects/behaviors incrementally and test both the math and implementation of each part of the process as we go.
 ```
+
+## Checkpointing to pick up from a new conversation
+
+```
+before moving on to the next implementation, lay out the roadmap of implementations / incremental development you had planned. what would be the next priority to implement? what comes after that? let's document your plan to make it easier to pick up from later
+```
