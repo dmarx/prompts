@@ -105,3 +105,11 @@ i think I may have boiled the ocean a bit here and built something really cool b
 ```
 before moving on to the next implementation, lay out the roadmap of implementations / incremental development you had planned. what would be the next priority to implement? what comes after that? let's document your plan to make it easier to pick up from later
 ```
+
+## planning ahead
+
+```
+start by proposing a sequence of incremental development steps that will permit us to integrate these changes reasonably quickly without boiling the ocean and trying to change too many things at once.
+
+Edit
+```
