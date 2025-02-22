@@ -110,6 +110,8 @@ before moving on to the next implementation, lay out the roadmap of implementati
 
 ```
 start by proposing a sequence of incremental development steps that will permit us to integrate these changes reasonably quickly without boiling the ocean and trying to change too many things at once.
+```
 
-Edit
+```
+sketch out the project structure, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
 ```
