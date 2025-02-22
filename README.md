@@ -105,6 +105,9 @@ i think I may have boiled the ocean a bit here and built something really cool b
 ```
 before moving on to the next implementation, lay out the roadmap of implementations / incremental development you had planned. what would be the next priority to implement? what comes after that? let's document your plan to make it easier to pick up from later
 ```
+```
+inventory the project state and layout for me. I haven't migrated any of the content out of this discussion yet and I want to make sure I don't miss anything. in fact, if you could prioritize what order I should move things so I can also quickly see if anything is broken, that would be helpful too. obviously, we start with that setup workflow from earlier.
+```
 
 ## planning ahead
 
