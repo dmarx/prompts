@@ -118,3 +118,7 @@ start by proposing a sequence of incremental development steps that will permit 
 ```
 sketch out the project structure, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
 ```
+
+```
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode as appropriate
+```
