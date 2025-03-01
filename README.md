@@ -154,6 +154,9 @@ many things at once.
 ```
 Generate the complete unabridged </path/to/file> with your updates so I can replace my file with yours in toto.
 ```
+```
+generate complete unabridged versions of all files I need to modify for this change so I can replace my copy with yours
+```
 
 ## Future-proof Debugging
 
