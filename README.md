@@ -105,6 +105,10 @@ refactor this so we can build up our final objects/behaviors incrementally and t
 of each part of the process as we go.
 ```
 
+```
+... associate each step with a success measure, such as user story or (pseudo)code for a test case.
+```
+
 ## Checkpointing to pick up from a new conversation
 
 ```
