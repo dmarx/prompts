@@ -137,6 +137,10 @@ explain what this is and how it works. intersperse narrative explanations with d
 as appropriate
 ```
 
+```
+suggest a prioritized approach for tackling these improvements incrementally, including specific steps for each task
+```
+
 ## picking up midstream
 
 ```
