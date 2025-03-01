@@ -150,7 +150,9 @@ many things at once.
 ```
 
 ## lazy LLM
-
+```
+sounds like a plan! please effect these updates by generating complete unabridged copies of all files that need to be modified so I can replace my versions with yours
+```
 ```
 Generate the complete unabridged </path/to/file> with your updates so I can replace my file with yours in toto.
 ```
