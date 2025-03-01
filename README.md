@@ -10,7 +10,8 @@ Just a place to track and improve on versions of multi-purpose prompts I find my
 
 ### Code Organization for LLM Interaction
 
-When developing this project (or using it as a template), keep in mind these guidelines for effective collaboration with Large Language Models:
+When developing this project (or using it as a template), keep in mind these guidelines for effective collaboration
+with Large Language Models:
 
 1. **File Length and Modularity**
    - Keep files short and focused on a single responsibility
@@ -89,7 +90,9 @@ short version:
 ## Architecture Mapping
 
 ```
-Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs. save your tokens, just list the titles of potential ADRs. Treat this as a motivating exercise to itemize decisions and assumptions in the codebase and architecture.
+Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs.
+save your tokens, just list the titles of potential ADRs.
+Treat this as a motivating exercise to itemize decisions and assumptions in the codebase and architecture.
 ```
 
 ## TDD
@@ -97,28 +100,51 @@ Enumerate decisions in this project's structure/design/whatever that we could co
 Instead of iteratively repairing an LLM implementation riddled with bugs, treat it as pseudocode and start from the top. new conv, share the code + :
 
 ```
-i think I may have boiled the ocean a bit here and built something really cool before even checking the math. refactor this so we can build up our final objects/behaviors incrementally and test both the math and implementation of each part of the process as we go.
+i think I may have boiled the ocean a bit here and built something really cool before even checking the math.
+refactor this so we can build up our final objects/behaviors incrementally and test both the math and implementation
+of each part of the process as we go.
 ```
 
 ## Checkpointing to pick up from a new conversation
 
 ```
-before moving on to the next implementation, lay out the roadmap of implementations / incremental development you had planned. what would be the next priority to implement? what comes after that? let's document your plan to make it easier to pick up from later
+before moving on to the next implementation, lay out the roadmap of implementations / incremental development you
+had planned. what would be the next priority to implement? what comes after that? let's document your plan to make
+it easier to pick up from later
 ```
+
 ```
-inventory the project state and layout for me. I haven't migrated any of the content out of this discussion yet and I want to make sure I don't miss anything. in fact, if you could prioritize what order I should move things so I can also quickly see if anything is broken, that would be helpful too. obviously, we start with that setup workflow from earlier.
+inventory the project state and layout for me. I haven't migrated any of the content out of this discussion yet and
+I want to make sure I don't miss anything. in fact, if you could prioritize what order I should move things so I can
+also quickly see if anything is broken, that would be helpful too. obviously, we start with that setup workflow from
+earlier.
 ```
 
 ## planning ahead
 
 ```
-start by proposing a sequence of incremental development steps that will permit us to integrate these changes reasonably quickly without boiling the ocean and trying to change too many things at once.
+start by proposing a sequence of incremental development steps that will permit us to integrate these changes
+reasonably quickly without boiling the ocean and trying to change too many things at once.
 ```
 
 ```
-sketch out the project structure, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
+sketch out the project structure, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative
+descriptions.
 ```
 
 ```
-explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode as appropriate
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode
+as appropriate
+```
+
+## picking up midstream
+
+```
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode
+as appropriate.
+
+we are in the process of incorporating some improvements and modifications. do your best to deduce what the change is,
+where we are in that process, and what more needs to be done. propose a sequence of incremental development steps that
+will permit us to integrate the remaining changes reasonably quickly without boiling the ocean and trying to change too
+many things at once.
 ```
