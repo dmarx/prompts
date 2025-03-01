@@ -148,3 +148,9 @@ where we are in that process, and what more needs to be done. propose a sequence
 will permit us to integrate the remaining changes reasonably quickly without boiling the ocean and trying to change too
 many things at once.
 ```
+
+## lazy LLM
+
+```
+Generate the complete unabridged </path/to/file> with your updates so I can replace my file with yours in toto.
+```
