@@ -154,3 +154,11 @@ many things at once.
 ```
 Generate the complete unabridged </path/to/file> with your updates so I can replace my file with yours in toto.
 ```
+
+## Future-proof Debugging
+
+copypaste error +
+
+```
+PS: We've encountered this sort of issue before. in addition to fixing the bug, please provide me with a short directive to add to the project conventions (basically your system prompt) to be proactive towards this happening again in the future.
+```
