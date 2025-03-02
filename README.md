@@ -124,6 +124,11 @@ also quickly see if anything is broken, that would be helpful too. obviously, we
 earlier.
 ```
 
+```
+generate detailed developer documentation explaining the new features, systems, and behaviors, interspersing
+appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
+```
+
 ## planning ahead
 
 ```
