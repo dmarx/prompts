@@ -173,6 +173,12 @@ Generate the complete unabridged </path/to/file> with your updates so I can repl
 generate complete unabridged versions of all files I need to modify for this change so I can replace my copy with yours
 ```
 
+### lazy loop breaker
+
+```
+you got cut off. finish the file you were working on, and then describe what additionally files/changes you will generate before continuing
+```
+
 ## Future-proof Debugging
 
 copypaste error +
