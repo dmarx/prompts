@@ -162,6 +162,12 @@ will permit us to integrate the remaining changes reasonably quickly without boi
 many things at once. KISS. Do not introduce unnecessary complexity in service of backwards compatibility.
 ```
 
+## Debugging
+
+```
+use systems diagrams (i.e. mermaid markdown or SVG xml code) to formalize happy paths, and then audit the system for components which appear to violate or complicate adherence to these code paths.
+```
+
 ## lazy LLM
 ```
 sounds like a plan! please effect these updates by generating complete unabridged copies of all files that need to be modified so I can replace my versions with yours
