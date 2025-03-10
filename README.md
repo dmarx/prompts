@@ -159,7 +159,7 @@ as appropriate.
 we are in the process of incorporating some improvements and modifications. do your best to deduce what the change is,
 where we are in that process, and what more needs to be done. propose a sequence of incremental development steps that
 will permit us to integrate the remaining changes reasonably quickly without boiling the ocean and trying to change too
-many things at once.
+many things at once. KISS. Do not introduce unnecessary complexity in service of backwards compatibility.
 ```
 
 ## lazy LLM
