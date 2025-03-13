@@ -162,6 +162,16 @@ will permit us to integrate the remaining changes reasonably quickly without boi
 many things at once. KISS. Do not introduce unnecessary complexity in service of backwards compatibility.
 ```
 
+### mitigating risk of repeating same mistakes
+
+```
+provide development guidelines that will assist a low-autonomy junior developer in developing your implementation. I'm
+specifically interested in reducing risk of unnecessary complexity, e.g. through mistaken efforts to preserve backwards
+compatibility. identifying specific features, patterns, objects, or processes that should be deprecated would probably
+be a good entrypoint to the kind of "guardrail" instructions I'm seeking.
+```
+
+
 ## Debugging
 
 ```
