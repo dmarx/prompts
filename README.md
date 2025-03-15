@@ -89,6 +89,16 @@ short version:
 
 ## Architecture Mapping
 
+
+```
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode as appropriate
+```
+
+```
+generate detailed developer documentation explaining the new features, systems, and behaviors, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
+```
+
+
 ```
 Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs.
 save your tokens, just list the titles of potential ADRs.
@@ -124,11 +134,6 @@ also quickly see if anything is broken, that would be helpful too. obviously, we
 earlier.
 ```
 
-```
-generate detailed developer documentation explaining the new features, systems, and behaviors, interspersing
-appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
-```
-
 ## planning ahead
 
 ```
@@ -139,11 +144,6 @@ reasonably quickly without boiling the ocean and trying to change too many thing
 ```
 sketch out the project structure, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative
 descriptions.
-```
-
-```
-explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode
-as appropriate
 ```
 
 ```
