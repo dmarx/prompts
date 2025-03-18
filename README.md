@@ -214,3 +214,9 @@ copypaste error +
 ```
 PS: We've encountered this sort of issue before. in addition to fixing the bug, please provide me with a short directive to add to the project conventions (basically your system prompt) to be proactive towards this happening again in the future.
 ```
+
+## Cruft identification and removal
+
+```
+we have been in the process of a significant refactor. help me identify files, objects, and code snippets that are likely vestigial or appear to be duplicating effort
+```
