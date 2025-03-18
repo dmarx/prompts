@@ -98,6 +98,10 @@ explain what this is and how it works. intersperse narrative explanations with d
 generate detailed developer documentation explaining the new features, systems, and behaviors, interspersing appropriate wireframes, systems diagrams, pseudocode, and narrative descriptions.
 ```
 
+```
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode as appropriate. use mermaid markdown or svg xml code for systems diagrams.
+```
+
 
 ```
 Enumerate decisions in this project's structure/design/whatever that we could consider documenting as ADRs.
