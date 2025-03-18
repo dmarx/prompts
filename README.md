@@ -91,7 +91,7 @@ short version:
 
 
 ```
-explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations and pseudocode as appropriate
+explain what this is and how it works. intersperse narrative explanations with diagrammatic explanations (as mermaid markdown or svg xml code) and pseudocode as appropriate
 ```
 
 ```
