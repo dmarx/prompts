@@ -220,3 +220,7 @@ PS: We've encountered this sort of issue before. in addition to fixing the bug, 
 ```
 we have been in the process of a significant refactor. help me identify files, objects, and code snippets that are likely vestigial or appear to be duplicating effort
 ```
+
+```
+highlight any potenital issues you foresee with the design
+```
