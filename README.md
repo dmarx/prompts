@@ -224,3 +224,9 @@ we have been in the process of a significant refactor. help me identify files, o
 ```
 highlight any potenital issues you foresee with the design/implementation, including but not limited to unnecessary complexity, duplicated effort, vestigical objects, poor separation of concerns, bad abstractions, conflicting conventions.
 ```
+
+## Undirected debugging
+
+```
+something seems to have broken in this POC app. any issues jumping out at you?
+```
