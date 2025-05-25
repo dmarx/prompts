@@ -87,6 +87,12 @@ short version:
 - Syntax permitting, files should begin with a comment indicating that file's name and relative path from the project root
 ```
 
+## Code Review
+
+```
+critically review this refactor. try to keep the scope of your feedback focused on structural and organizational concerns, but feel free to go out of scope if you feel the feedback is extremely important.
+```
+
 ## Architecture Mapping
 
 
