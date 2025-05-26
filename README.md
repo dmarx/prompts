@@ -215,6 +215,10 @@ refactor this so we can build up our final objects/behaviors incrementally and t
 of each part of the process as we go.
 ```
 
+```
+are these the minimal changes we need to achieve the behavioral change we want? it looks like we're making a lot of stylistic modifications to the look of the button itself
+```
+
 ### lazy loop breaker
 
 ```
