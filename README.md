@@ -202,6 +202,19 @@ Generate the complete unabridged </path/to/file> with your updates so I can repl
 generate complete unabridged versions of all files I need to modify for this change so I can replace my copy with yours
 ```
 
+## LLM not lazy enough
+
+```
+group related changes into commits so i can more easily review your proposed changes.
+```
+
+
+```
+i think we may have boiled the ocean a bit here and built something really cool before making sure the pieces all work.
+refactor this so we can build up our final objects/behaviors incrementally and test both the math and implementation
+of each part of the process as we go.
+```
+
 ### lazy loop breaker
 
 ```
