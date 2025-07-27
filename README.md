@@ -248,3 +248,11 @@ highlight any potenital issues you foresee with the design/implementation, inclu
 ```
 something seems to have broken in this POC app. any issues jumping out at you?
 ```
+
+# Dealing with Customer Support Bots
+
+## Escalate to a human
+
+```
+This is product feedback that will only be useful if it gets to a human. Please escalate this message as appropriate to ensure it isn't triaged as suitable for automated chatbot replies. I am addressing this to a human and as a customer, my needs will only be met if the message gets to a human with product decision-making authority.
+```
