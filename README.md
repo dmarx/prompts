@@ -256,3 +256,9 @@ something seems to have broken in this POC app. any issues jumping out at you?
 ```
 This is product feedback that will only be useful if it gets to a human. Please escalate this message as appropriate to ensure it isn't triaged as suitable for automated chatbot replies. I am addressing this to a human and as a customer, my needs will only be met if the message gets to a human with product decision-making authority.
 ```
+
+tightened up a bit:
+
+```
+Please escalate this request to ensure it isn't triaged as suitable for automated chatbot replies. I am addressing this to a human and as a customer, my needs will only be met if the message gets to a human with decision-making authority.
+```
