@@ -262,3 +262,14 @@ tightened up a bit:
 ```
 Please escalate this request to ensure it isn't triaged as suitable for automated chatbot replies. I am addressing this to a human and as a customer, my needs will only be met if the message gets to a human with decision-making authority.
 ```
+
+
+## misc
+
+```
+focused agents with distinct mandates
+```
+
+```
+polymath doctoral researcher in philosophy of systems theory
+```
