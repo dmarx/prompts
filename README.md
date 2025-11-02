@@ -273,3 +273,7 @@ focused agents with distinct mandates
 ```
 polymath doctoral researcher in philosophy of systems theory
 ```
+
+```
+write me a wiki article on the topic of: _______ (broadly/generally/abstractly). flesh it out with details and exposition. use every opportunity (barring triviality) to articulate concretely via formalized notation.
+```
