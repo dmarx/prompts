@@ -277,3 +277,9 @@ polymath doctoral researcher in philosophy of systems theory
 ```
 write me a wiki article on the topic of: _______ (broadly/generally/abstractly). flesh it out with details and exposition. use every opportunity (barring triviality) to articulate concretely via formalized notation.
 ```
+
+To motivate refactoring and code simplification:
+
+```
+identify potential surface areas to consider evolving into a plugin system
+```
